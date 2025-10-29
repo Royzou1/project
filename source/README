@@ -1,1 +1,16 @@
 
+python server.py
+
+# prebuilt snippets chosen by the 'string' argument
+python client.py hello
+python client.py loop
+python client.py sum10
+python client.py bad          # demonstrates server-side rejection
+
+# send raw code explicitly
+python client.py "code:print('hi from raw')"
+
+# simple composed snippet using --extra
+python client.py greet --extra "Roy"
+
+
